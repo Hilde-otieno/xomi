@@ -1,0 +1,786 @@
+#container{
+    width: 1800px;
+    height: 900px;
+}
+.topic{
+    font-size: xxx-large;
+    text-align: center;
+}
+#content{
+    display: flex;
+    margin-top: 100px;
+    gap: 30%;
+    margin-left: 150px;
+    width: 60%;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap; 
+}
+#english{
+    width: 400px;
+    height: 700px;
+    background-color: #AFBBBC;   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.image{
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+}
+.englishh{
+    text-align: center;
+    font-size: xx-large;
+}
+#kiswahili{
+    width: 400px;
+    height: 700px;
+    background-color: #AFBBBC;   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.kiswahilii{
+    text-align: center;
+    font-size: xx-large;
+}
+#maths{
+    width: 400px;
+    height: 700px;
+    padding-left: 15px;
+    background-color: #AFBBBC;   
+
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.mathss{
+    text-align: center;
+    font-size: xx-large; 
+}
+#science{
+    width: 400px;
+    height: 700px;
+    background-color: #AFBBBC;   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.sciencee{
+    text-align: center;
+    font-size: xx-large;  
+}
+#social{
+    width: 400px;
+    height: 700px;
+    padding-left: 15px;
+    background-color: #AFBBBC;   
+
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.socials{
+    text-align: center;
+    font-size: xx-large;   
+}
+#cre{
+    width: 400px;
+    height: 700px;
+    background-color: #AFBBBC;   
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+.cree{
+    text-align: center;
+    font-size: xx-large;   
+}
+.courses-container {
+    width: 91%;
+  }
+.details{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  .courses-list-wrapper {
+    display: flex;
+    margin-top: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
+    
+  }
+ 
+  .courses-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .courses-list li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+ 
+  .courses{
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .leftArrow{
+    width: 60px;
+    height: 60px;
+    margin-top: 330px;
+    cursor: pointer;
+  }
+  .rightArrow{
+    width: 60px;
+    height: 60px;
+    margin-top: 340px;
+    cursor: pointer;
+  }
+  .arrows{
+    width: 50px;
+    height: 50px;
+  }
+  
+@media screen and (min-width:280px) and (max-width:480px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+    .topic{
+        font-size: xx-large;
+        text-align: center;
+    }
+    #content{
+        display: block;
+        margin-top: 80px;
+        gap: 5%;
+        margin-left: 0px;
+        width: 97%;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap; 
+    }
+    #english{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+        margin-top: 50px;
+    }
+    .englishh{
+        text-align: center;
+        font-size: x-large;
+    }
+    .courses-container {
+        width: 72%;
+        margin-left: 40px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    #kiswahili{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .kiswahilii{
+        text-align: center;
+        font-size: xx-large;
+    }
+    #maths{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .mathss{
+        text-align: center;
+        font-size: xx-large; 
+    }
+    #science{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .sciencee{
+        text-align: center;
+        font-size: xx-large;  
+    }
+    #social{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .socials{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    #cre{
+        width: 250px;
+        height: 380px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        
+    }
+    .cree{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;  
+    }
+    #list{
+       width: 50%;
+       margin-left: 20px;
+       overflow-x:scroll;
+       overflow-y:hidden;
+       white-space: nowrap; 
+    
+    }
+    li,
+    img {
+     width: 500px;
+    }
+    .scroll{
+      cursor: pointer;
+    }
+}
+@media screen and (min-width:481px) and (max-width:680px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+    .topic{
+        font-size: xx-large;
+        text-align: center;
+    }
+    #content{
+        display: block;
+        margin-top: 0px;
+        gap: 5%;
+        margin-left: 0px;
+        width: 100%;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap; 
+    }
+    #english{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .courses-container {
+        width: 72%;
+        margin-left: 40px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    .image{
+        width:400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .englishh{
+        text-align: center;
+        font-size: x-large;
+    }
+    #kiswahili{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .kiswahilii{
+        text-align: center;
+        font-size: xx-large;
+    }
+    #maths{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .mathss{
+        text-align: center;
+        font-size: xx-large; 
+    }
+    #science{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .sciencee{
+        text-align: center;
+        font-size: xx-large;  
+    }
+    #social{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .socials{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    #cre{
+        width: 400px;
+        height: 550px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .cree{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;  
+    }
+    #list{
+       width: 50%;
+       margin-left: 20px;
+       overflow-x:scroll;
+       overflow-y:hidden;
+       white-space: nowrap; 
+    
+    }
+    li,
+    img {
+     width: 500px;
+    }
+    .scroll{
+      cursor: pointer;
+    }
+}
+@media screen and (min-width:681px) and (max-width:880px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+    .topic{
+        font-size: xxx-large;
+        text-align: start;
+    }
+    #content{
+        display: block;
+        margin-top: 0px;
+        gap: 5%;
+        margin-left: 0px;
+        width: 90%;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap; 
+    }
+    #english{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .courses-container {
+        width: 72%;
+        margin-left: 40px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    .image{
+        width: 550px;
+        height: 650px;
+        margin-top: 50px;
+    }
+    .englishh{
+        text-align: center;
+        font-size: x-large;
+    }
+    #kiswahili{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .kiswahilii{
+        text-align: center;
+        font-size: xx-large;
+    }
+    #maths{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .mathss{
+        text-align: center;
+        font-size: xx-large; 
+    }
+    #science{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .sciencee{
+        text-align: center;
+        font-size: xx-large;  
+    }
+    #social{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .socials{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    #cre{
+        width: 550px;
+        height: 800px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .cree{
+        text-align: center;
+        font-size: xx-large;   
+    }
+    li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;  
+    }
+    #list{
+       width: 50%;
+       margin-left: 20px;
+       overflow-x:scroll;
+       overflow-y:hidden;
+       white-space: nowrap; 
+    
+    }
+    li,
+    img {
+     width: 500px;
+    }
+    .scroll{
+      cursor: pointer;
+    }
+}
+@media screen and (min-width:881px) and (max-width:1020px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+    .topic{
+        font-size: xxx-large;
+        text-align: center;
+    }
+    #content{
+        display: block;
+        margin-top: 150px;
+        gap: 5%;
+        margin-left: 0px;
+        width: 100%;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap; 
+    }
+    #english{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .image{
+        width: 700px;
+        height: 900px;
+        margin-top: 50px;
+    }
+    .englishh{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    #kiswahili{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .kiswahilii{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    #maths{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .mathss{
+        text-align: center;
+        font-size: xxx-large; 
+    }
+    #science{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .sciencee{
+        text-align: center;
+        font-size: xxx-large;  
+    }
+    #social{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .socials{
+        text-align: center;
+        font-size: xxx-large;   
+    }
+    #cre{
+        width: 700px;
+        height: 1100px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .cree{
+        text-align: center;
+        font-size: xxx-large;   
+    }
+    li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;  
+    }
+    #list{
+       width: 50%;
+       margin-left: 20px;
+       overflow-x:scroll;
+       overflow-y:hidden;
+       white-space: nowrap; 
+    
+    }
+    .courses-container {
+        width: 72%;
+        margin-left: 100px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    li,
+    img {
+     width: 500px;
+    }
+    .scroll{
+      cursor: pointer;
+    }
+}
+@media screen and (min-width:1021px) and (max-width:1500px){
+    #container{
+        width: 90%;
+        height: 50%;
+    }
+    .topic{
+        font-size: xxx-large;
+        text-align: center;
+    }
+    #content{
+        display: block;
+        margin-top: 0px;
+        gap: 5%;
+        margin-left: 0px;
+        width: 100%;
+        overflow-x:scroll;
+        overflow-y:hidden;
+        white-space: nowrap; 
+    }
+    #english{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .image{
+        width: 400px;
+        height: 400px;
+        margin-top: 50px;
+    }
+    .englishh{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    #kiswahili{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .kiswahilii{
+        text-align: center;
+        font-size: xxx-large;
+    }
+    #maths{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .mathss{
+        text-align: center;
+        font-size: xxx-large; 
+    }
+    #science{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .sciencee{
+        text-align: center;
+        font-size: xxx-large;  
+    }
+    #social{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .socials{
+        text-align: center;
+        font-size: xxx-large;   
+    }
+    #cre{
+        width: 400px;
+        height: 600px;
+        background-color: #AFBBBC;   
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+    }
+    .cree{
+        text-align: center;
+        font-size: xxx-large;   
+    }
+    li{
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        width: 20%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        list-style: none;  
+    }
+    #list{
+       width: 50%;
+       margin-left: 20px;
+       overflow-x:scroll;
+       overflow-y:hidden;
+       white-space: nowrap; 
+    
+    }
+    .courses-container {
+        width: 72%;
+        margin-left: 180px;
+        overflow-x: auto;
+        gap: 40%;
+        white-space: nowrap;
+      }
+    li,
+    img {
+     width: 500px;
+    }
+    .scroll{
+      cursor: pointer;
+    }
+}
